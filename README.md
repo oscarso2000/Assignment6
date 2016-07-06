@@ -18,8 +18,7 @@ In a text file `assignment6.txt`, answer the following questions:
 1.  What will be output of following C code?  Explain your answer.
   
 ``` C
-	int main()
-{
+int main() {
   struct employee
   {
     unsigned int id = 8;
