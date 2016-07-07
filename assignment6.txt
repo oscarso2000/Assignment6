@@ -1,0 +1,5 @@
+1. Nothing will print out and there will be an error because the integers should not be defined inside the struct employee box. This is because the structure declares the type of variable and not the type of variable that needs to be initialized.
+2. For enum, it is designed for variables containing limited sets of values. the value automatically starts at 0 for the first term and increments by 1 for the rest. An example for enum can be months enum={JAN=1,FEB....NOV,DEC}. For structures, they do not reserve any space in the memory. structures are good to use when you want to assign multiple members to multiple variables that may require the same members. the dot function is used to call these member variables. An example of structures is assignment scores, age, names, and average scores for multiple students, just like our assignment.
+3. for passing an array to the function, a pointer will be decayed to the first element while by passing an array in a structure, the members and variables will be directly copied into the function instead.
+
+-- Oscar So --
